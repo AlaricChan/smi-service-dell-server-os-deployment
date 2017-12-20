@@ -96,6 +96,37 @@ Source code for this microservice is available in repositories at https://github
 
 The microservice makes use of dependent Jar libraries that may be covered by other licenses. In order to comply with the requirements of applicable licenses, the source for dependent libraries used by this microservice is available for download at:  https://bintray.com/rackhd/binary/download_file?file_path=smi-service-dell-server-os-deployment-dependency-sources-devel.zip
 
+The following dependent jar libraries are licensed under the LGPL license (https://www.gnu.org/copyleft/lesser.txt):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loopy-core-1.2.2.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loopy-vfs-1.2.2.jar
+
+The following dependent jar libraries are licensed under the LGPL 2.1 license (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jcifs-1.3.18-kohsuke-1.jar 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; logback-classic-1.1.9.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; logback-core-1.1.9.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hk2-api-2.5.0-b32.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hk2-locator-2.5.0-b32.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hk2-utils-2.5.0-b32.jar
+
+The following dependent jar libraries are licensed under the CDDL 1.1 and GPL 2.0 license (https://spdx.org/licenses/CDDL-1.1.html) : 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; javax.ws.rs-api-2.0.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-apache-client4-1.19.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-client-1.19.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-client-2.25.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-common-2.25.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-core-1.19.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-entity-filtering-2.25.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-guava-2.25.1.jar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jersey-media-json-jackson-2.25.1.jar
+
+The following dependent jar library is licensed under the CDDL license (https://opensource.org/licenses/cddl1.php):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jsr311-api-1.1.1.jar
+
+The following dependent jar library is licensed under the EPL 1.0 license (http://www.eclipse.org/legal/epl-v10.html):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aspectjweaver-1.8.9.jar
+
+This product may be distributed with open source code, licensed to you in accordance with the applicable open source license. If you would like a copy of any such source code, Dell EMC will provide a copy of the source code that is required to be made available in accordance with the applicable open source license. Dell EMC may charge reasonable shipping and handling charges for such distribution. Please direct requests in writing to Dell EMC Legal, 176 South St., Hopkinton, MA 01748, ATTN: Open Source Program Office.
+
 Additionally the binary and source jars for all dependent libraries are available for download on Maven Central.
 
 RackHD is a Trademark of Dell EMC
