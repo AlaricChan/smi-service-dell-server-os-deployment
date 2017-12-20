@@ -1,0 +1,32 @@
+server:
+    port: 46014
+---
+
+spring:
+  profiles: default
+  application:
+    name: SERVER-OS-DEPLOYMENT
+  cloud:
+    bus:
+      enabled: false
+    consul:
+      enabled: false
+      config:
+        enabled: false
+---
+
+spring:
+  profiles: consul
+  application:
+    name: SERVER-OS-DEPLOYMENT
+  cloud:
+    consul:
+      enabled: false
+      host: service-registry
+      port: 8500
+      config:
+        prefix: config
+        profileSeparator: '::'
+        format: YAML
+        data-key: data
+        fail-fast: false
