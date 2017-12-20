@@ -1,2 +1,7 @@
+.gradle/
+.settings/org.eclipse.jdt.core.prefs
+bin/bootstrap.yml
+bin/
+build/
 src/docs/asciidoc/generated/
 src/main/resources/buildInfo.properties
