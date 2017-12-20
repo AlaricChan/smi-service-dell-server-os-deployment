@@ -266,7 +266,7 @@ task buildSourcePathsArray(dependsOn: 'eclipseClasspath' ){
 task dependencySourcesZip(type: Zip, dependsOn: 'buildSourcePathsArray' ) {
 	destinationDir = project.file('build/distributions')
 	destinationDir.mkdirs()
-	baseName = "smi-service-os-deployment-dependency-sources"
+	baseName = "smi-service-dell-server-os-deployment-dependency-sources"
 	version = "${dockerTag}"
 	outputs.upToDateWhen { false }
  

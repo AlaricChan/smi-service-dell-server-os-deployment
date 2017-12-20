@@ -94,7 +94,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 Source code for this microservice is available in repositories at https://github.com/RackHD.  
 
-The microservice makes use of dependent Jar libraries that may be covered by other licenses. In order to comply with the requirements of applicable licenses, the source for dependent libraries used by this microservice is available for download at:  https://bintray.com/rackhd/binary/download_file?file_path=smi-service-os-deployment-dependency-sources-devel.zip
+The microservice makes use of dependent Jar libraries that may be covered by other licenses. In order to comply with the requirements of applicable licenses, the source for dependent libraries used by this microservice is available for download at:  https://bintray.com/rackhd/binary/download_file?file_path=smi-service-dell-server-os-deployment-dependency-sources-devel.zip
 
 Additionally the binary and source jars for all dependent libraries are available for download on Maven Central.
 
