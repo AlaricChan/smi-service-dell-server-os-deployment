@@ -1,0 +1,8 @@
+#server:
+    #port: 46014
+
+logging:
+  level.root: INFO
+  level.com.dell.smi: TRACE
+  level.org.apache.tomcat: INFO
+  file: /var/log/dell/osdeploy.log
