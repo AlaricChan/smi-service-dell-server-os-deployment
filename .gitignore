@@ -4,4 +4,3 @@ bin/bootstrap.yml
 bin/
 build/
 src/docs/asciidoc/generated/
-src/main/resources/buildInfo.properties
