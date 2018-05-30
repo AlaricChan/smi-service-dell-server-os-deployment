@@ -113,12 +113,12 @@ dependencies {
     //compile project(':smi-lib-adapter-server')
     //compile project(':smi-lib-commons-model')
 
-    compile 'com.dell.isg.smi:wsmanlib:1.0.64'
-    compile 'com.dell.isg.smi:wsmanclient:1.0.40'
-    compile 'com.dell.isg.smi:commons-model:1.0.97'
-    compile 'com.dell.isg.smi:commons-elm:1.0.82'
-    compile 'com.dell.isg.smi:commons-utilities:1.0.32'   
-    compile 'com.dell.isg.smi:adapter-server:1.0.77'
+    compile 'com.dell.isg.smi:wsmanlib:'+wsmanlibVersion
+    compile 'com.dell.isg.smi:wsmanclient:'+wsmanclientVersion
+    compile 'com.dell.isg.smi:commons-model:'+commonsModelVersion
+    compile 'com.dell.isg.smi:commons-elm:'+commonsElmVersion
+    compile 'com.dell.isg.smi:commons-utilities:'+commonsUtilitiesVersion
+    compile 'com.dell.isg.smi:adapter-server:'+adapterServerVersion
    
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.springframework.boot:spring-boot-starter-tomcat'
